@@ -1,5 +1,15 @@
 # Computer Vision: A Comprehensive Overview
 
+## 0. Introduction
+
+**Computer Vision** is a rapidly growing field that focuses on enabling machines to interpret and understand the visual world. The goal of computer vision is to enable computers to process, analyze, and make sense of digital images or videos, just like human vision does. 
+
+With the advancement of deep learning and AI, computer vision has found applications in various industries, including **autonomous driving**, **healthcare diagnostics**, **security systems**, **robotics**, and more. 
+
+In this document, we’ll cover fundamental concepts of computer vision, including how images are formed, processed, and analyzed, as well as the techniques and methods that help machines understand the visual world.
+
+---
+
 ## 1. What is Computer Vision?
 
 **Computer Vision** is the field of study that enables computers to gain high-level understanding from digital images or videos. It seeks to automate tasks that the human visual system can perform, such as object recognition, image classification, scene reconstruction, etc.
