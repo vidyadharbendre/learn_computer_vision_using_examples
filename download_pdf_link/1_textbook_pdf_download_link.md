@@ -1,0 +1,1 @@
+For a comprehensive overview of computer vision applications, you can download the book *Computer Vision: Algorithms and Applications* by Richard Szeliski [here](https://www.springer.com/gp/book/9781848829343).
