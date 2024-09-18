@@ -50,6 +50,23 @@
    - **Characteristics**: More complex due to additional dimension, involves vectors and matrices for computation.
    - **Usage**: Advanced graphics, spatial transformations, robotics.
 
+## 4. **Additional Formula**
+
+### a) **Definition**
+   - **Formula**: The differential element of a solid angle in spherical coordinates can be expressed as:
+     <p align="center">
+     <i>dw = da * cos(θ) / r²</i>
+     </p>
+   - **Description**: In this formula:
+     - <i>dw</i> is the differential solid angle.
+     - <i>da</i> is the differential area element.
+     - <i>θ</i> is the angle between the surface normal and the observation direction.
+     - <i>r</i> is the radial distance from the origin.
+
+   ### b) **Applications**
+   - **Radiometry**: Used in calculating radiance and flux in optics and computer vision.
+   - **3D Modeling**: Helps in the computation of visibility and light interaction with surfaces.
+
 ---
 
 For additional reading and in-depth understanding of these concepts, refer to the provided textbooks and online resources.
