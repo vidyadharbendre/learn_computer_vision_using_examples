@@ -13,19 +13,9 @@ Building computer vision algorithms involves several key stages. Each step trans
    - **Histogram Equalization**: Enhancing image contrast by adjusting the intensity distribution.
    - **Edge Detection**: Techniques such as Sobel, Canny, or Laplacian filters to highlight edges in the image.
    
-### c) **Example**
-   <p align="center">
-   Preprocessing an image by applying a Gaussian filter to remove noise:
-   </p>
-   <p align="center">
-   `I_filtered = cv2.GaussianBlur(I, (5, 5), 0)`
-   </p>
 
-### d) **Applications**
+### c) **Applications**
    Preprocessing is crucial in enhancing image quality for subsequent stages, like segmentation or feature extraction.
-
-### e) **Reference**
-   - **Text**: *Digital Image Processing* - R. C. Gonzalez and R. E. Woods (2008)
 
 ## 2. **Segmentation**
 
@@ -38,20 +28,9 @@ Building computer vision algorithms involves several key stages. Each step trans
    - **Region-Based Segmentation**: Groups pixels into regions based on similarity (e.g., region growing or watershed algorithms).
    - **Clustering**: Segments the image using clustering algorithms like k-means.
 
-### c) **Example**
-   <p align="center">
-   Performing binary segmentation using Otsu’s thresholding:
-   </p>
-   <p align="center">
-   `ret, binary = cv2.threshold(gray_img, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)`
-   </p>
-
-### d) **Applications**
+### c) **Applications**
    - **Medical Imaging**: Segmenting organs or tumors from scans.
    - **Object Detection**: Isolating objects for further analysis in tasks like vehicle detection.
-
-### e) **Reference**
-   - **Text**: *Segmentation in Computer Vision* - M. Sonka (2004)
 
 ## 3. **Feature Extraction**
 
@@ -63,21 +42,9 @@ Building computer vision algorithms involves several key stages. Each step trans
    - **Shape-Based Features**: Descriptors that capture the geometry of an object (e.g., contour or boundary descriptors).
    - **Texture-Based Features**: Descriptors based on texture patterns (e.g., Local Binary Patterns (LBP)).
 
-### c) **Example**
-   <p align="center">
-   Extracting SIFT (Scale-Invariant Feature Transform) features from an image:
-   </p>
-   <p align="center">
-   `sift = cv2.SIFT_create()`  
-   `keypoints, descriptors = sift.detectAndCompute(gray_img, None)`
-   </p>
-
-### d) **Applications**
+### c) **Applications**
    - **Face Recognition**: Extracting facial features for identity verification.
    - **Object Tracking**: Using features to track objects across video frames.
-
-### e) **Reference**
-   - **Text**: *Feature Extraction and Image Processing for Computer Vision* - M. Nixon and A. Aguado (2019)
 
 ## 4. **Classification**
 
@@ -88,21 +55,10 @@ Building computer vision algorithms involves several key stages. Each step trans
    - **Traditional Machine Learning**: Techniques like Support Vector Machines (SVM), k-Nearest Neighbors (k-NN), and decision trees.
    - **Deep Learning**: Convolutional Neural Networks (CNNs) that automatically learn features and perform classification.
    
-### c) **Example**
-   <p align="center">
-   Using an SVM classifier to classify an image based on extracted features:
-   </p>
-   <p align="center">
-   `svm = cv2.ml.SVM_create()`  
-   `svm.train(training_data, cv2.ml.ROW_SAMPLE, labels)`
-   </p>
 
-### d) **Applications**
+### c) **Applications**
    - **Image Recognition**: Classifying objects like vehicles, animals, or everyday objects.
    - **Medical Diagnosis**: Classifying images for disease detection.
-
-### e) **Reference**
-   - **Text**: *Pattern Recognition and Machine Learning* - C. M. Bishop (2006)
 
 ## 5. **Post-Processing**
 
@@ -113,21 +69,9 @@ Building computer vision algorithms involves several key stages. Each step trans
    - **Morphological Operations**: Cleaning up segmentation masks using dilation, erosion, opening, and closing operations.
    - **Bounding Boxes and Contours**: Drawing bounding boxes around detected objects or calculating object properties like area and perimeter.
 
-### c) **Example**
-   <p align="center">
-   Applying morphological operations to clean up a binary mask:
-   </p>
-   <p align="center">
-   `kernel = np.ones((5, 5), np.uint8)`  
-   `cleaned_mask = cv2.morphologyEx(binary_mask, cv2.MORPH_CLOSE, kernel)`
-   </p>
-
-### d) **Applications**
+### c) **Applications**
    - **Object Detection**: Refining detected regions in object detection systems.
    - **Segmentation Cleanup**: Removing small noise or holes from segmentation results.
-
-### e) **Reference**
-   - **Text**: *Morphological Image Processing* - J. Serra (1982)
 
 ---
 
@@ -142,5 +86,3 @@ Building computer vision algorithms involves several key stages. Each step trans
 These steps form the foundation of most computer vision pipelines, whether for object detection, recognition, or other tasks.
 
 ---
-
-For further reading and understanding of these concepts, refer to the provided textbooks and online resources.
