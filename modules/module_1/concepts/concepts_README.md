@@ -8,10 +8,10 @@
    ### b) **Radians**
    - **Description**: A radian is the angle subtended by an arc of a circle with a length equal to the radius of the circle. One radian equals approximately 57.2958 degrees.
    - **Formula**: If \( \theta \) is the angle in radians, it can be computed using the arc length \( s \) and the radius \( r \) of the circle:
-     \[
-     \theta = \frac{s}{r}
-     \]
-   - **Example**: An angle of 90 degrees is equivalent to \( \frac{\pi}{2} \) radians.
+     <p align="center">
+     θ = s / r
+     </p>
+   - **Example**: An angle of 90 degrees is equivalent to &pi;/2 radians.
 
    ### c) **Applications**
    - **Rotation**: Rotating a 2D object around the origin involves specifying an angle in radians.
@@ -27,10 +27,10 @@
 
    ### b) **Radians**
    - **Description**: Similar to 2D, a radian in 3D is the angle subtended by an arc on a sphere where the arc length is equal to the radius of the sphere.
-   - **Formula**: For two vectors \( \mathbf{u} \) and \( \mathbf{v} \) with the dot product \( \mathbf{u} \cdot \mathbf{v} \), the angle \( \theta \) between them is:
-     \[
-     \theta = \arccos\left(\frac{\mathbf{u} \cdot \mathbf{v}}{|\mathbf{u}| \cdot |\mathbf{v}|}\right)
-     \]
+   - **Formula**: For two vectors <i>u</i> and <i>v</i> with the dot product <i>u · v</i>, the angle <i>θ</i> between them is:
+     <p align="center">
+     θ = arccos((<i>u · v</i>) / (|<i>u</i>| · |<i>v</i>|))
+     </p>
    - **Example**: The angle between two vectors in 3D space can be computed using the dot product formula, providing a measure of how aligned or opposed the vectors are.
 
    ### c) **Applications**
