@@ -3,9 +3,9 @@
 ## Introduction
 In the study of geometry, particularly in 2D space, the relationship between an angle, the radius of a circle, and the arc length is crucial for understanding circular motion and angular measurements. 
 
-This document will explain the fundamental relationship: 
+This document will explain the fundamental relationship:
 
-\[ dl = r \cdot d\theta \]
+`dl = r * dθ`
 
 where:
 - **dl** is the infinitesimal arc length,
@@ -33,7 +33,7 @@ The arc length depends on:
 ### Formula for Arc Length
 The relationship between arc length, radius, and angle is given by:
 
-\[ dl = r \cdot d\theta \]
+`dl = r * dθ`
 
 Where:
 - **dl** is the infinitesimal arc length (the length of a small segment of the circle).
@@ -48,41 +48,3 @@ Consider a circle with a radius of **2 meters** and an angle **dθ = 1 radian**:
 dl = 2 \, \text{m} \times 1 \, \text{rad} = 2 \, \text{meters}
 \]
 This means that for an angle of 1 radian, the arc length will be 2 meters.
-
-## 3. Visualizing the Concept
-Imagine a **pizza slice**. The tip of the slice is the center of the circle, and the outer crust forms part of the circle’s circumference (the arc). The size of the pizza slice is determined by:
-- The **radius** (distance from the tip to the crust).
-- The **angle (θ)** that the slice spans.
-
-The arc length is the length of the crust on this pizza slice.
-
-### Key Points:
-- For a **larger radius**, the arc length for the same angle will be greater.
-- For a **larger angle (θ)**, the arc length will also be greater, even if the radius remains the same.
-
-## 4. Differential Form of the Formula
-The equation \( dl = r \cdot d\theta \) is presented in its **differential form**, meaning it expresses a relationship between small changes in arc length and small changes in angle. This is useful when studying the incremental changes in angular motion in physics or calculus.
-
-### For finite angles (θ):
-If the angle subtended by an arc is finite (not infinitesimally small), the formula becomes:
-\[
-l = r \cdot \theta
-\]
-Where:
-- **l** is the total arc length corresponding to the angle **θ** (in radians).
-
-### Example:
-For a circle with radius **3 meters** and an angle **θ = π/2 radians** (90 degrees):
-\[
-l = 3 \, \text{m} \times \frac{\pi}{2} = 4.71 \, \text{meters}
-\]
-This means the arc length for a quarter-circle with radius 3 meters is approximately 4.71 meters.
-
-## 5. Applications of Arc Length Formula
-The formula \( dl = r \cdot d\theta \) is widely used in many areas, including:
-- **Physics**: In circular motion, calculating the distance traveled by an object moving along a circular path.
-- **Engineering**: In designing circular structures or components.
-- **Astronomy**: Measuring angular distances between celestial objects.
-
-## 6. Conclusion
-The relationship between arc length, radius, and angle is fundamental to understanding circular geometry. The formula \( dl = r \cdot d\theta \) provides a simple way to calculate the arc length for any given angle and radius. Whether studying geometry, physics, or engineering, this concept is essential for understanding how objects move and interact in circular paths.
