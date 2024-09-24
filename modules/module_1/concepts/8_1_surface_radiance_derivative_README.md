@@ -2,78 +2,93 @@
 
 ## Introduction
 
-**Radiance** is a key concept in radiometry that describes the energy emitted, reflected, or transmitted by a surface in a specific direction, per unit solid angle, and per unit area. In this document, we will derive the formula for surface radiance step by step, where **J** will represent the radiant intensity, previously denoted as **I**.
+Radiance is an important concept in radiometry that defines the **amount of energy** emitted, reflected, or transmitted from a surface in a specific direction, per unit solid angle. This document walks through the step-by-step derivation of the surface radiance formula.
 
 ## 1. Definition of Radiance
 
-Radiance \(L(θ, φ)\) is the energy passing through a unit area of a surface in a specific direction, within a unit solid angle. It is essentially the flux per unit solid angle and per unit projected surface area.
+**Radiance** \(L\) is mathematically defined as the energy passing through a unit area in a specific direction per unit solid angle:
 
-Radiance is denoted as:
-
-`L = \frac{d^2 \Phi}{dA \cdot dΩ \cdot \cos(θ)}`
-
-Where:
-- `d^2 Φ` is the differential radiant flux (in watts).
-- `dA` is the differential surface area (in meters squared, m²).
-- `dΩ` is the differential solid angle (in steradians, sr).
-- `θ` is the angle between the surface normal and the direction of the radiation.
-- `\cos(θ)` accounts for the projection of the surface area along the direction of the radiation.
-
-Now, let's go step by step to derive this formula.
-
-## 2. Radiant Flux \( \Phi \)
-
-The total **radiant flux \( \Phi \)** is the total power emitted, transferred, or received in the form of electromagnetic radiation. The flux emitted by a source within a solid angle \(dΩ\) is given by:
-
-`dΦ = J \cdot dΩ`
+\[
+L(θ, φ) = \frac{d²Φ}{dA \cdot dΩ \cdot cos(θ)}
+\]
 
 Where:
-- `dΦ` is the differential radiant flux (in watts, W).
-- `J` is the radiant intensity (in watts per steradian, W/sr).
-- `dΩ` is the differential solid angle (in steradians, sr).
+- \(L(θ, φ)\) is the radiance for angles \(θ\) (zenith) and \(φ\) (azimuth).
+- \(d²Φ\) is the differential radiant flux.
+- \(dA\) is the differential area.
+- \(dΩ\) is the differential solid angle.
+- \(cos(θ)\) accounts for the angle of the surface relative to the direction of interest.
 
-### 2.1 Solid Angle \( dΩ \)
+## 2. Derivation Steps
 
-For a small surface area \( dA \) located at a distance \( r \) from the source, the solid angle subtended by that surface area is:
+### Step 1: Consider a Radiating Surface
 
-`dΩ = \frac{dA \cdot \cos(θ)}{r^2}`
+Let’s consider a surface that emits radiant energy uniformly in all directions.
 
-Where:
-- `dA` is the surface area (in m²).
-- `\cos(θ)` is the angle between the direction of the radiation and the surface normal.
-- `r` is the distance between the surface and the source.
+### Step 2: Define Differential Areas and Angles
 
-### 2.2 Relationship Between Radiant Flux and Surface Area
+Assume a differential area \(dA\) on the surface and a solid angle \(dΩ\) into which the energy is emitted.
 
-Now, substituting the expression for `dΩ` into the expression for `dΦ`:
+### Step 3: Relate Radiant Flux to Radiance
 
-`dΦ = J \cdot \frac{dA \cdot \cos(θ)}{r^2}`
+From the definition of radiance, we can express the differential radiant flux \(d²Φ\) in terms of radiance as follows:
 
-Thus, the radiant flux through the surface area \( dA \) is proportional to the radiant intensity, the surface area, and the angle \( θ \).
+\[
+d²Φ = L(θ, φ) \cdot dA \cdot dΩ \cdot cos(θ)
+\]
 
-## 3. Differential Radiant Flux \( d^2 \Phi \)
+### Step 4: Deriving \(d²Φ\)
 
-When we want to find the radiant flux per unit solid angle and per unit surface area, we take the second differential of the flux. This brings us to:
+To understand how we derive \(d²Φ\), we start with the definition of **radiant flux** \(Φ\), which is the total power emitted, transferred, or received in the form of electromagnetic radiation. 
 
-`d^2 Φ = J \cdot \frac{dA \cdot \cos(θ)}{r^2}`
+1. The radiant flux \(dΦ\) emitted into a solid angle \(dΩ\) is given by:
 
-Here:
-- `d^2 Φ` represents the **differential radiant flux** emitted within a solid angle and a differential surface area.
+   \[
+   dΦ = J \cdot dΩ
+   \]
 
-## 4. Surface Radiance \( L(θ, φ) \)
+   Where:
+   - \(dΦ\) is the differential radiant flux (in watts, W).
+   - \(J\) is the radiant intensity (in watts per steradian, W/sr).
+   - \(dΩ\) is the differential solid angle (in steradians, sr).
 
-Radiance is defined as the differential flux per unit projected area, per unit solid angle. Rearranging the above formula to express radiance:
+2. For a small surface area \(dA\) located at a distance \(r\) from the source, the solid angle \(dΩ\) subtended by that surface area can be expressed as:
 
-`L(θ, φ) = \frac{d^2 Φ}{dA \cdot dΩ \cdot \cos(θ)}`
+   \[
+   dΩ = \frac{dA \cdot cos(θ)}{r^2}
+   \]
 
-Where:
-- `L(θ, φ)` is the radiance as a function of the angles \( θ \) and \( φ \).
-- `\cos(θ)` adjusts for the projection of the surface relative to the direction of the radiation.
+   Where:
+   - \(dA\) is the surface area (in m²).
+   - \(cos(θ)\) is the angle between the direction of the radiation and the surface normal.
+   - \(r\) is the distance between the surface and the source.
 
-## 5. Summary
+3. Substituting the expression for \(dΩ\) into the expression for \(dΦ\), we get:
 
-The surface radiance formula provides the relationship between the radiant intensity, the surface area, and the solid angle through which the energy is radiated. The key steps in the derivation involve understanding how radiant flux is related to the solid angle and surface area. The final radiance formula is:
+   \[
+   dΦ = J \cdot \frac{dA \cdot cos(θ)}{r^2}
+   \]
 
-`L = \frac{d^2 Φ}{dA \cdot dΩ \cdot \cos(θ)}`
+4. Now, when we consider \(d²Φ\) as the radiant flux per unit solid angle and per unit surface area, we express this as:
 
-This equation allows us to calculate the radiance for any given direction of radiation relative to the surface.
+   \[
+   d²Φ = J \cdot dA \cdot \frac{cos(θ)}{r^2}
+   \]
+
+### Step 5: Integrate Over the Surface and Solid Angle
+
+To find the total radiant flux emitted by the surface, integrate over the solid angle and the surface area:
+
+\[
+Φ = \int\int L(θ, φ) \cdot dA \cdot dΩ \cdot cos(θ)
+\]
+
+## 3. Example
+
+An example of radiance could be:
+
+'If a surface emits 10 W/m² in a specific direction within a solid angle of 0.1 sr, the surface radiance would be calculated accordingly.'
+
+## 4. Conclusion
+
+Surface radiance is a key parameter in understanding how surfaces emit energy. By defining radiance in relation to differential areas and solid angles, we can derive useful formulas that apply in various fields of science and engineering.
