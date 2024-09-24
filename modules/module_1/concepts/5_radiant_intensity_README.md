@@ -1,23 +1,23 @@
 # Understanding Radiant Intensity
 
 ## Introduction
-**Radiant intensity** is a measure of the power emitted by a light source per unit solid angle in a given direction. It is an important concept in radiometry, which deals with the measurement of electromagnetic radiation, including visible light. Radiant intensity helps in understanding how light is distributed spatially by a source.
+**Radiant intensity** is a measure of the **light flux emitted per unit solid angle** in a given direction. It is an important concept in radiometry, which deals with the measurement of electromagnetic radiation, including visible light. Radiant intensity helps in understanding how light is distributed spatially by a source.
 
 Radiant intensity is expressed in **watts per steradian (W/sr)** and plays a crucial role in the study of light sources and their behavior in various directions.
 
 ## 1. Definition of Radiant Intensity
-**Radiant intensity (I)** is defined as the amount of **radiant flux (Φ)** emitted by a source in a specific direction per unit solid angle **dΩ**. It quantifies how much power is radiated from the source into a particular direction within a given solid angle.
+**Radiant intensity (I)** is defined as the amount of **light flux (Φ)** emitted by a source in a specific direction per unit solid angle **dΩ**. It quantifies how much power is radiated from the source into a particular direction within a given solid angle.
 
 ### Formula:
 `I = dΦ / dΩ`
 
 Where:
 - **I** is the radiant intensity (in watts per steradian, W/sr).
-- **dΦ** is the differential radiant flux (in watts, W).
+- **dΦ** is the differential light flux (in watts, W).
 - **dΩ** is the differential solid angle (in steradians, sr).
 
 ### Example:
-If a light source emits **10 watts** of radiant flux into a solid angle of **2 steradians**, the radiant intensity in that direction is:
+If a light source emits **10 watts** of light flux into a solid angle of **2 steradians**, the radiant intensity in that direction is:
 
 `I = 10 W / 2 sr = 5 W/sr`
 
@@ -25,7 +25,7 @@ This means the light source emits **5 watts per steradian** in that specific dir
 
 ## 2. Units of Measurement
 - **Radiant intensity (I)** is measured in **watts per steradian (W/sr)**.
-- **Radiant flux (Φ)** is measured in **watts (W)**.
+- **Light flux (Φ)** is measured in **watts (W)**.
 - **Solid angle (Ω)** is measured in **steradians (sr)**.
 
 ### Understanding Steradian (sr):
@@ -37,7 +37,7 @@ Radiant intensity gives us a way to describe the distribution of light from a so
 ### Key Formula:
 `I = dΦ / dΩ`
 
-This equation tells us that radiant intensity is the flux emitted in a specific direction per unit solid angle.
+This equation tells us that radiant intensity is the light flux emitted in a specific direction per unit solid angle.
 
 ### Relation to Surface Area:
 If we consider a surface area **dA** at a distance **r** from the light source, the solid angle subtended by this surface is:
@@ -58,7 +58,7 @@ Radiant intensity is often used to describe how light is emitted by point source
 ### Example of Directional Emission:
 Consider a **spotlight** that emits light primarily in one direction. The radiant intensity would be highest in the direction the light is pointing and would decrease in directions further away from the center of the beam.
 
-If the spotlight emits **20 watts** of radiant flux into a narrow solid angle of **0.2 steradians**, the radiant intensity in the beam's direction is:
+If the spotlight emits **20 watts** of light flux into a narrow solid angle of **0.2 steradians**, the radiant intensity in the beam's direction is:
 
 `I = 20 W / 0.2 sr = 100 W/sr`
 

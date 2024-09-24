@@ -1,7 +1,7 @@
 # Understanding Light Flux (Radiant Flux)
 
 ## Introduction
-**Light flux**, or **radiant flux**, refers to the total power of electromagnetic radiation (including visible light) emitted by a source. It is usually measured in **watts (W)** and describes the rate at which energy is emitted, transferred, or received in the form of radiation. 
+**Light flux**, or **radiant flux**, refers to the total **power emitted within a solid angle** by a light source. It is usually measured in **watts (W)** and describes the rate at which energy is emitted, transferred, or received in the form of electromagnetic radiation (including visible light).
 
 In this document, we will explore the relationship between light flux and solid angles, specifically how flux is emitted by a source within a solid angle.
 
