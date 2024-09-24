@@ -13,7 +13,7 @@ Radiance is denoted as:
 'L = \frac{d^2 \Phi}{dA \cdot dΩ \cdot \cos(θ)}'
 
 Where:
-- 'd^2 \Phi' is the differential radiant flux (in watts).
+- 'd^2 Φ' is the differential radiant flux (in watts).
 - 'dA' is the differential surface area (in meters squared, m²).
 - 'dΩ' is the differential solid angle (in steradians, sr).
 - 'θ' is the angle between the surface normal and the direction of the radiation.
