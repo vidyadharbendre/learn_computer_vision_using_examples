@@ -17,22 +17,22 @@ When radiant flux is emitted within a specific **solid angle (dΩ)**, the flux t
 
 The differential radiant flux (dΦ) emitted into a solid angle **dΩ** is proportional to the intensity of the light source and the size of the solid angle. The relationship is given by:
 
-`dΦ = I * dΩ`
+`dΦ = J * dΩ`
 
 Where:
 - **dΦ** is the differential radiant flux (in watts, W).
-- **I** is the **radiant intensity** of the source (in watts per steradian, W/sr).
+- **J** is the **radiant intensity** of the source (in watts per steradian, W/sr).
 - **dΩ** is the differential solid angle (in steradians, sr).
 
 ### Example:
-If a light source has a radiant intensity of **I = 5 W/sr** and the solid angle **dΩ = 0.5 sr**, the differential radiant flux emitted within that solid angle is:
+If a light source has a radiant intensity of **J = 5 W/sr** and the solid angle **dΩ = 0.5 sr**, the differential radiant flux emitted within that solid angle is:
 
 `dΦ = 5 W/sr * 0.5 sr = 2.5 W`
 
 This means that **2.5 watts** of radiant flux is emitted within the specified solid angle.
 
 ## 3. Radiant Intensity and Solid Angle
-Radiant intensity **I** is a measure of the power per unit solid angle emitted by a light source in a specific direction. It is related to the total flux emitted into a solid angle and plays a critical role in determining the flux distribution.
+Radiant intensity **J** is a measure of the power per unit solid angle emitted by a light source in a specific direction. It is related to the total flux emitted into a solid angle and plays a critical role in determining the flux distribution.
 
 The solid angle, **dΩ**, is used to describe the spatial extent over which the flux is distributed.
 
@@ -53,11 +53,11 @@ For a differential surface area **dA** at a distance **r** from the source, the 
 
 Thus, the radiant flux can also be expressed in terms of surface area as:
 
-`dΦ = I * (dA / r²)`
+`dΦ = J * (dA / r²)`
 
 Additionally, if the surface is inclined at an angle **θ**, the formula becomes:
 
-`dΦ = I * (dA * cosθ / r²)`
+`dΦ = J * (dA * cosθ / r²)`
 
 Where:
 - **θ** is the angle between the surface normal and the line of sight.
@@ -73,4 +73,4 @@ Radiant flux is a fundamental concept in many areas of science and engineering, 
 ## 7. Conclusion
 Light flux (radiant flux) describes the total power emitted or transferred as electromagnetic radiation and is measured in watts. The relationship between flux and solid angles is crucial for understanding how radiation is distributed in space. 
 
-By using the formula `dΦ = I * dΩ`, we can quantify the flux emitted within a specific direction or area, providing a valuable tool for designing and analyzing systems that emit or receive light.
+By using the formula `dΦ = J * dΩ`, we can quantify the flux emitted within a specific direction or area, providing a valuable tool for designing and analyzing systems that emit or receive light.
