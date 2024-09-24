@@ -13,22 +13,22 @@ This document explores the definitions, differences, and relationships between t
 **Light flux** (also known as **radiant flux**, denoted as `Φ`) is the total electromagnetic energy emitted, transferred, or received per unit time. It represents the **total power** emitted within a solid angle by a light source.
 
 - **Unit**: Watts (`W`)
-- **Formula**: `Φ = ∫ I dΩ`
+- **Formula**: `Φ = ∫ J dΩ`
   
   where:
   - `Φ` is the total radiant flux,
-  - `I` is the radiant intensity (the light flux emitted per unit solid angle),
+  - `J` is the radiant intensity (the light flux emitted per unit solid angle),
   - `dΩ` is the solid angle.
 
 ### Radiant Intensity
 
-**Radiant intensity (I)** is the amount of **light flux emitted per unit solid angle** in a particular direction. It measures how concentrated the light is in a specific direction.
+**Radiant intensity (J)** is the amount of **light flux emitted per unit solid angle** in a particular direction. It measures how concentrated the light is in a specific direction.
 
 - **Unit**: Watts per steradian (`W/sr`)
-- **Formula**: `I = dΦ / dΩ`
+- **Formula**: `J = dΦ / dΩ`
   
   where:
-  - `I` is the radiant intensity,
+  - `J` is the radiant intensity,
   - `dΦ` is the differential radiant flux,
   - `dΩ` is the solid angle.
 
@@ -46,11 +46,11 @@ This document explores the definitions, differences, and relationships between t
 
 ### 2.3 Formula Relations
 
-- **Light Flux (Φ)** is the integral of **radiant intensity (I)** over the solid angle:  
-  `Φ = ∫ I dΩ`
+- **Light Flux (Φ)** is the integral of **radiant intensity (J)** over the solid angle:  
+  `Φ = ∫ J dΩ`
   
-- **Radiant Intensity (I)** is the derivative of **light flux (Φ)** with respect to the solid angle:  
-  `I = dΦ / dΩ`
+- **Radiant Intensity (J)** is the derivative of **light flux (Φ)** with respect to the solid angle:  
+  `J = dΦ / dΩ`
 
 ### 2.4 Physical Interpretation
 
@@ -76,13 +76,13 @@ A flashlight emits **2 W/sr** of radiant intensity, meaning it emits 2 watts of 
 
 ### 4.1 Light Flux (Radiant Flux)
 
-- **Formula**: `Φ = ∫ I dΩ`
+- **Formula**: `Φ = ∫ J dΩ`
 - **Units**: Watts (`W`)
 - **Description**: Total power emitted within a solid angle.
 
 ### 4.2 Radiant Intensity
 
-- **Formula**: `I = dΦ / dΩ`
+- **Formula**: `J = dΦ / dΩ`
 - **Units**: Watts per steradian (`W/sr`)
 - **Description**: Power emitted per unit solid angle in a specific direction.
 
