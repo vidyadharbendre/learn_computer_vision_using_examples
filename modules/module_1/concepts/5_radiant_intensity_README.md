@@ -6,25 +6,25 @@
 Radiant intensity is expressed in **watts per steradian (W/sr)** and plays a crucial role in the study of light sources and their behavior in various directions.
 
 ## 1. Definition of Radiant Intensity
-**Radiant intensity (I)** is defined as the amount of **light flux (Φ)** emitted by a source in a specific direction per unit solid angle **dΩ**. It quantifies how much power is radiated from the source into a particular direction within a given solid angle.
+**Radiant intensity (J)** is defined as the amount of **light flux (Φ)** emitted by a source in a specific direction per unit solid angle **dΩ**. It quantifies how much power is radiated from the source into a particular direction within a given solid angle.
 
 ### Formula:
-`I = dΦ / dΩ`
+`J = dΦ / dΩ`
 
 Where:
-- **I** is the radiant intensity (in watts per steradian, W/sr).
+- **J** is the radiant intensity (in watts per steradian, W/sr).
 - **dΦ** is the differential light flux (in watts, W).
 - **dΩ** is the differential solid angle (in steradians, sr).
 
 ### Example:
 If a light source emits **10 watts** of light flux into a solid angle of **2 steradians**, the radiant intensity in that direction is:
 
-`I = 10 W / 2 sr = 5 W/sr`
+`J = 10 W / 2 sr = 5 W/sr`
 
 This means the light source emits **5 watts per steradian** in that specific direction.
 
 ## 2. Units of Measurement
-- **Radiant intensity (I)** is measured in **watts per steradian (W/sr)**.
+- **Radiant intensity (J)** is measured in **watts per steradian (W/sr)**.
 - **Light flux (Φ)** is measured in **watts (W)**.
 - **Solid angle (Ω)** is measured in **steradians (sr)**.
 
@@ -35,7 +35,7 @@ A **steradian** is a unit of solid angle in three-dimensional space. It is analo
 Radiant intensity gives us a way to describe the distribution of light from a source over different directions. The total power emitted by a light source is not necessarily uniform in all directions. Radiant intensity captures the variation in intensity with respect to direction.
 
 ### Key Formula:
-`I = dΦ / dΩ`
+`J = dΦ / dΩ`
 
 This equation tells us that radiant intensity is the light flux emitted in a specific direction per unit solid angle.
 
@@ -46,11 +46,11 @@ If we consider a surface area **dA** at a distance **r** from the light source, 
 
 Thus, the radiant intensity can also be expressed as:
 
-`I = dΦ / (dA / r²)`
+`J = dΦ / (dA / r²)`
 
 Or equivalently:
 
-`I = dΦ * r² / dA`
+`J = dΦ * r² / dA`
 
 ## 4. Radiant Intensity in Terms of Direction
 Radiant intensity is often used to describe how light is emitted by point sources, like stars, bulbs, or LEDs. In practical applications, light sources might have different intensities in different directions due to their design or the medium they are in.
@@ -60,7 +60,7 @@ Consider a **spotlight** that emits light primarily in one direction. The radian
 
 If the spotlight emits **20 watts** of light flux into a narrow solid angle of **0.2 steradians**, the radiant intensity in the beam's direction is:
 
-`I = 20 W / 0.2 sr = 100 W/sr`
+`J = 20 W / 0.2 sr = 100 W/sr`
 
 This indicates that the light is concentrated, delivering more energy in that specific direction.
 
@@ -70,11 +70,11 @@ The radiant intensity of real light sources varies with angle. This angular dist
 ### Cosine Law:
 For certain types of radiating surfaces, such as **Lambertian surfaces**, the intensity varies as a function of the cosine of the angle between the surface normal and the direction of emission:
 
-`I(θ) = I₀ * cos(θ)`
+`J(θ) = J₀ * cos(θ)`
 
 Where:
-- **I(θ)** is the intensity at angle **θ**.
-- **I₀** is the intensity in the normal direction (θ = 0°).
+- **J(θ)** is the intensity at angle **θ**.
+- **J₀** is the intensity in the normal direction (θ = 0°).
 - **θ** is the angle relative to the surface normal.
 
 This is important for understanding how light sources behave in real-world scenarios, such as how much light reaches a specific area or object.
@@ -94,4 +94,4 @@ Radiant intensity is a crucial concept in various fields of science and engineer
 ## 8. Conclusion
 **Radiant intensity** provides a quantitative measure of the power emitted by a source per unit solid angle in a given direction. It is critical for understanding how light or other forms of radiation are distributed in space.
 
-The formula `I = dΦ / dΩ` helps describe the directional behavior of a light source, enabling us to measure or design systems that optimize light emission or reception for various applications.
+The formula `J = dΦ / dΩ` helps describe the directional behavior of a light source, enabling us to measure or design systems that optimize light emission or reception for various applications.
