@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**Surface Radiance** is a radiometric quantity that measures the amount of radiant power emitted, reflected, transmitted, or received by a surface in a specific direction, per unit area and per unit solid angle. It is one of the most fundamental quantities in radiometry, particularly when analyzing the distribution of light in scenes and understanding how objects appear when illuminated.
+**Surface Radiance** is a radiometric quantity that measures the amount of radiant power emitted, reflected, transmitted, or received by a surface in a specific direction, per unit area and per unit solid angle. In simpler terms, **surface radiance can be defined as the light flux emitted per unit foreshortened area per unit solid angle**. It is one of the most fundamental quantities in radiometry, particularly when analyzing the distribution of light in scenes and understanding how objects appear when illuminated.
 
 ## 1. Definition
 
@@ -49,13 +49,13 @@ Radiance is a **directional quantity**: it describes how much light is traveling
 
 ### 4.2 Alternative Radiance Expression
 
-Using the concept of **radiant intensity (I)** and **distance (r)** from the light source, we can express radiance as:
+Using the concept of **radiant intensity (J)** and **distance (r)** from the light source, we can express radiance as:
 
-- **Formula**: `L = (I / r²) cos(θ)`
+- **Formula**: `L = (J / r²) cos(θ)`
   
   where:
   - `L` is the radiance,
-  - `I` is the radiant intensity,
+  - `J` is the radiant intensity,
   - `r` is the distance from the source,
   - `θ` is the angle of incidence.
 
@@ -65,9 +65,9 @@ This formulation highlights the dependency of radiance on both the distance from
 
 ### 5.1 Radiant Intensity
 
-Radiant intensity `I` measures the radiant power emitted by a source in a particular direction, but unlike radiance, it does not take into account the area over which the light is emitted. The relationship between radiance and intensity is given by:
+Radiant intensity `J` measures the radiant power emitted by a source in a particular direction, but unlike radiance, it does not take into account the area over which the light is emitted. The relationship between radiance and intensity is given by:
 
-- **Formula**: `L = I / (A cos(θ))`
+- **Formula**: `L = J / (A cos(θ))`
 
 Radiance essentially represents how the intensity is distributed over the projected area of the emitting surface.
 
@@ -99,9 +99,9 @@ For example, radiance helps explain why some parts of a surface appear brighter 
 
 ### 7.2 Relation to Solid Angle and Radiant Intensity
 
-- **Formula**: `L = (I / r²) cos(θ)`
+- **Formula**: `L = (J / r²) cos(θ)`
 
-Where `I` is the radiant intensity and `r` is the distance from the source.
+Where `J` is the radiant intensity and `r` is the distance from the source.
 
 ## 8. Practical Applications
 
@@ -118,7 +118,7 @@ In photography, radiance defines how much light from different parts of a scene 
 ### 9.1 Surface Radiance
 
 - **Formula**: `L = d²Φ / (dA · cos(θ) · dω)`
-- **Alternative Formula**: `L = (I / r²) cos(θ)`
+- **Alternative Formula**: `L = (J / r²) cos(θ)`
 - **Units**: Watts per square meter per steradian (`W/m²·sr`)
 - **Description**: Radiance describes the radiant power emitted, reflected, transmitted, or received by a surface per unit area and per unit solid angle, in a specific direction.
 
