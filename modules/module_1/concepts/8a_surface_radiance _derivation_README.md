@@ -33,6 +33,16 @@ From the definition of radiance, we can express the differential radiant flux \(
 
 'd²Φ = L(θ, φ) · dA · dΩ · cos(θ)'
 
+### 3.1 Meaning of 'd²Φ'
+
+--The **first differential** 'dΦ' typically represents the infinitesimal change in radiant flux.
+--The **second differential** 'd²Φ' means you are looking at how this change occurs in **two variables** simultaneously: in both the area ('dA') and the solid angle ('dΩ').
+In this case, the radiant flux 'Φ' is dependent on both:
+
+The area from which the radiation is emitted ('dA').
+The solid angle into which the radiation is emitted ('dΩ').
+Thus, 'd²Φ' represents a small piece of flux emitted from a small surface element 'dA' into a small solid angle 'dΩ'. The two differentials refer to these two independent variables.
+
 ### Step 4: Integrate Over the Surface and Solid Angle
 
 To find the total radiant flux emitted by the surface, integrate over the solid angle and the surface area:
