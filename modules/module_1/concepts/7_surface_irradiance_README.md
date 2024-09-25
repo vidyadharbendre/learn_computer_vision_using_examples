@@ -36,6 +36,7 @@ The extended formula incorporates the angle `θ` between the incoming light and 
 Another way to express irradiance is using the concept of **solid angle (dω)**. The solid angle subtended by a differential area `dA` can be used to relate irradiance to radiance.
 
 - **Formula**: `E = J \cdot dω / dA`
+- **Formula**: `E = J · dω / dA`
   
   where:
   - `E` is the irradiance,
@@ -82,8 +83,25 @@ Irradiance represents how much radiant energy is hitting a given area on a surfa
 When factoring in the angle `θ` and distance `r` from the source:
 
 - **Extended Formula**: `E = (J cos(θ)) / r²`
+- **Alternative Formula**: `E = J · dω / dA`
 
 Where `J` represents the directional flux (or radiance) emitted by the source, distributed over the surface area adjusted for angle and distance.
+
+### 6.1 Angle of Incidence and Its Effect on Irradiance
+
+The angle of incidence (`θ`) directly influences irradiance via the cosine term in the extended formula:
+
+- **When `θ = 0°`** (light is perpendicular to the surface):  
+  `cos(0°) = 1`, resulting in **maximum irradiance**.
+
+- **When `θ = 90°`** (light is parallel to the surface):  
+  `cos(90°) = 0`, resulting in **minimal irradiance**.
+
+Surfaces perpendicular to the light source receive the most light energy, while surfaces parallel to the light receive little to none.
+
+#### Example
+
+At **solar noon**, with the sun overhead (`θ ≈ 0°`), irradiance is maximum. At sunrise or sunset (`θ ≈ 90°`), irradiance is minimal.
 
 
 - **Example**
@@ -95,13 +113,6 @@ If a surface receives **100 W** of radiant flux spread over an area of **2 m²**
 This means the surface is receiving 50 watts of power per square meter.
 
 
-### 6.1 Alternative Formula Using Solid Angle
-
-Another expression of irradiance relates to the solid angle `dω` subtended by the surface:
-
-- **Formula**: `E = J \cdot dω / dA`
-  
-This relationship connects the radiance with the solid angle projected onto the surface.
 
 ## 7. Application in Solar Energy
 
