@@ -2,7 +2,7 @@
 
 This document explores various **Bidirectional Reflectance Distribution Function (BRDF)** models and key shading techniques, such as **Phong Shading**, **Dichromatic Reflectance Model**, and **Global Illumination**, which help simulate realistic light behavior in rendering.
 
-## 1. Diffuse Reflectance (Lambertian)
+## 1. Diffuse Reflectance (Lambertian) or Body Reflection
 
 ### Description
 Diffuse reflection scatters light uniformly in all directions. A perfect diffuse surface, or Lambertian surface, reflects light evenly, regardless of the viewer’s perspective.
@@ -15,6 +15,16 @@ Diffuse reflection scatters light uniformly in all directions. A perfect diffuse
 - **Even Light Distribution**: Light scatters uniformly.
 - **View-Independent Reflection**: Appears the same from any angle.
 - **Example Materials**: Matte surfaces like paper, chalk, and unfinished wood.
+
+### Example: Mud Pots or Clay Vases
+
+Mud pots or clay vases can be considered examples of body reflections because the light interacting with these objects tends to scatter diffusely across their surfaces. Here’s why:
+
+- **Diffuse Surface**: Mud pots or clay vases typically have rough, porous surfaces, which means that when light strikes them, it is scattered in many directions rather than being reflected in a single, specular direction (like a mirror). This is a characteristic of body reflection (or diffuse reflection), where the surface does not produce sharp, clear reflections.
+  
+- **Absorption and Scattering**: In body reflection, part of the light penetrates the material, interacts with its internal structure, and then gets scattered. Materials like clay are not entirely reflective but absorb some of the light, while the rest is scattered. This scattered light makes the surface appear uniformly lit from various angles, which is another hallmark of body reflection.
+
+Thus, due to their rough and absorbent surface characteristics, mud pots and clay vases are good examples of how body reflection works, in contrast to shiny surfaces that exhibit specular reflection.
 
 ---
 
