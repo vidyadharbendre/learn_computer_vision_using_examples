@@ -4,6 +4,35 @@ The **Bidirectional Reflectance Distribution Function (BRDF)** is a fundamental 
 
 ## 1. What is BRDF?
 
+The **Bidirectional Reflectance Distribution Function (BRDF)** is a mathematical model that describes how light is reflected off a surface. It is used to quantify the relationship between incoming light (irradiance) and outgoing reflected light (radiance), helping to define how a material appears under various lighting conditions.
+
+BRDF provides a **concise way** to represent the reflectance properties of any material in a scene, whether it’s a diffuse material like chalk or a highly reflective material like metal. It is essential for generating realistic scenes in computer graphics, as it determines how surfaces reflect light from different angles.
+
+## Mathematical Definition
+
+The BRDF is formally defined as:
+
+`f_r(ω_i, ω_r) = dL_r(ω_r) / dE_i(ω_i)`
+
+Where:
+- `f_r(ω_i, ω_r)` is the BRDF value.
+- `ω_i` represents the incoming light direction (incident angles).
+- `ω_r` represents the outgoing light direction (reflected angles).
+- `dL_r(ω_r)` is the differential reflected radiance.
+- `dE_i(ω_i)` is the differential incident irradiance.
+
+This equation describes the ratio of reflected light to the incoming light, which varies based on the material’s surface properties and the angles of incidence and reflection.
+
+## BRDF as a 4D Function
+
+BRDF is a **4-dimensional function** because it depends on two directions: the **incoming light direction** (`ω_i`) and the **outgoing reflected direction** (`ω_r`). Each of these directions can be expressed using two angles (azimuth and elevation), making it a 4-dimensional problem to represent.
+
+- `ω_i` = (`θ_i`, `φ_i`) describes the incident light direction.
+- `ω_r` = (`θ_r`, `φ_r`) describes the reflected light direction.
+
+This 4D function allows us to capture how light interacts with surfaces under various conditions, such as different viewing angles, light sources, and material properties.
+
+
 - The **BRDF** ('f_r(θ_i, φ_i, θ_r, φ_r)') defines how light is reflected at a surface based on the incoming and outgoing light directions.
 - It is a **four-dimensional function** that depends on:
   - The **incoming zenith angle** ('θ_i') and **incoming azimuth angle** ('φ_i').
