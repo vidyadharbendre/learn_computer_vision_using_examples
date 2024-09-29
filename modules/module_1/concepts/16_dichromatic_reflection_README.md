@@ -1,5 +1,23 @@
 # Dichromatic Reflection Model
 
+As we know by now, the two basic reflection models are **surface reflection** and **body reflection**. However, we haven't yet studied the impact of these two mechanisms on the color of the incident light. 
+
+## Understanding the Relationship
+
+The primary question we explore is: **What is the relationship between the color of the incident light and the color of the reflected light from the surface?** This inquiry brings us to the **Dichromatic Reflectance Model**.
+
+### Why Study the Dichromatic Reflectance Model?
+
+The dichromatic reflectance model is essential for understanding how different surfaces interact with light. It provides insights into the following aspects:
+
+- **Color Interaction**: It helps in analyzing how the color of the incident light affects the color that is reflected. Different materials can reflect and absorb light differently, resulting in varying perceived colors.
+  
+- **Surface and Body Reflection**: The model differentiates between surface reflection (which contributes to specular highlights) and body reflection (which gives the matte finish), allowing for a more comprehensive understanding of how materials appear under different lighting conditions.
+
+- **Real-World Applications**: Understanding this relationship is crucial for various applications, including computer graphics, color science, and material science, where accurately simulating the appearance of materials under varying lighting conditions is required.
+
+In summary, the dichromatic reflectance model is pivotal in bridging the gap between how light interacts with surfaces and the visual perception of color, enriching our understanding of material properties and lighting effects.
+
 ### What is the Dichromatic Reflection Model?
 - **Definition**: The Dichromatic Reflection Model (DRM) is a model used in computer graphics and material science to describe the way light interacts with surfaces that have both **specular** (mirror-like) and **diffuse** (matte) reflection components.
 - It splits the reflection of light into two main components:
