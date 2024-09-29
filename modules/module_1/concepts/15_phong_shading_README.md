@@ -1,6 +1,9 @@
 # Phong Shading
 
+**Phong shading** is a widely used shading technique in computer graphics to simulate the way light interacts with surfaces. It provides a way to render realistic lighting effects on 3D objects by considering the viewer's position, the light source's position, and the surface normal. Phong shading creates smooth and visually appealing highlights, contributing to the realism of rendered scenes.
+
 ### What is Phong Shading?
+
 - **Definition**: Phong Shading is an **interpolation technique** used in 3D computer graphics to simulate the way light interacts with surfaces. It provides a smooth and realistic shading effect across surfaces by calculating pixel-level lighting based on surface normals.
 - Phong Shading is often used to improve the realism of curved surfaces, making them appear less faceted and more continuous.
 
@@ -11,9 +14,11 @@
 2. **Phong Reflection Model**:
    - Phong Shading is based on the **Phong Reflection Model**, which describes how light is reflected from a surface.
    - It breaks light reflection into three components:
-     - **Ambient Reflection**: Simulates scattered light present everywhere.
-     - **Diffuse Reflection**: Models light scattered uniformly in all directions, following **Lambertian reflection**.
-     - **Specular Reflection**: Models light reflected in a specific direction, simulating shiny highlights on the surface.
+     - **Ambient Reflection**: Simulates scattered light present everywhere.Represents the constant, indirect light present in a scene, which affects all objects equally regardless of their orientation. It provides a base level of illumination.
+
+     - **Diffuse Reflection**: Models light scattered uniformly in all directions, following **Lambertian reflection**.Simulates the scattering of light when it strikes a rough surface. This reflection is dependent on the angle between the incoming light and the surface normal, creating a soft, matte appearance.
+
+     - **Specular Reflection**: Models light reflected in a specific direction, simulating shiny highlights on the surface.Models the shiny highlights on a surface caused by direct light reflection. It is based on the angle between the viewer's position and the reflection of the light source, creating sharp highlights on glossy surfaces.
 
 3. **Per-Pixel Lighting Calculation**:
    - Unlike **Gouraud Shading**, where lighting is calculated at the vertices and interpolated across the surface, Phong Shading computes lighting at each pixel, leading to more accurate and smooth shading.
