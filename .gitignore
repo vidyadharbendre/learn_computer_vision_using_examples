@@ -1,2 +1,3 @@
 .DS_Store/*.*
 .dist
+modules/.DS_Store
