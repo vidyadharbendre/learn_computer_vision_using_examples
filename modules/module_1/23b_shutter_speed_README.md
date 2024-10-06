@@ -2,20 +2,35 @@
 
 ## Introduction
 
+Shutter speed is a crucial setting in digital photography that controls the duration of light exposure to the image sensor.
+
 **Shutter speed** refers to the amount of time the camera's sensor is exposed to light. It is one of the three main pillars of photography, along with **aperture** and **ISO**. Shutter speed plays a crucial role in determining how motion is captured in an image and significantly affects the brightness of your photo.
 
 This document will walk you through the concept of shutter speed, its effects, and examples of how it impacts digital photography.
 
 ---
-
 ## What is Shutter Speed?
 
-Shutter speed is defined as the duration for which the camera's **shutter** remains open, allowing light to hit the camera sensor.
+- **Definition**: Shutter speed is defined as the duration for which the camera's **shutter** remains open, allowing light to hit the camera sensor.
+
+- **Measured in**: Shutter speed is measured in seconds (e.g., 1/2000, 1/500, 1/30, 2", etc.), with higher fractions indicating faster speeds and longer times indicating slower speeds.
 
 - **Fast shutter speed**: The shutter opens and closes quickly, freezing fast-moving objects.
+
 - **Slow shutter speed**: The shutter stays open longer, capturing motion blur from moving objects.
 
-Shutter speed is measured in seconds (e.g., 1/2000, 1/500, 1/30, 2", etc.), with higher fractions indicating faster speeds and longer times indicating slower speeds.
+
+
+
+## Effects of Shutter Speed
+
+1. **Motion Blur**: Longer shutter speeds can create a blur effect for moving subjects.
+2. **Exposure**: Faster shutter speeds allow less light, while slower speeds allow more light.
+
+## Learning Objectives
+
+- Understand how to adjust shutter speed for different lighting conditions.
+- Learn the impact of shutter speed on motion and exposure.
 
 ### Common Shutter Speed Ranges:
 - **Fast shutter speeds** (e.g., 1/1000, 1/2000): Ideal for freezing action (sports, wildlife).
