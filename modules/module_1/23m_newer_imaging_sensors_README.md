@@ -1,11 +1,29 @@
 # Newer Imaging Sensors
 
+Advancements in image sensor technology have led to significant improvements in digital photography and videography.
+
 ## Introduction
 
 The field of imaging sensors is evolving rapidly, with advancements in technology significantly enhancing their capabilities. Newer imaging sensors, including depth sensors, are becoming increasingly sophisticated, enabling a wide range of applications in photography, videography, augmented reality, and computer vision. These sensors play a crucial role in capturing high-quality images and data, pushing the boundaries of what's possible in imaging technology.
 
----
+## Types of Newer Image Sensors
 
+1. **Backside Illuminated (BSI) Sensors**: Improve low-light performance by placing wiring behind the photodetector.
+2. **Stacked Sensors**: Combine photodetectors and processing circuitry into a single unit for faster readouts.
+3. **Multi-Spectral Sensors**: Capture a broader range of light wavelengths for improved color accuracy.
+
+## Benefits of Newer Sensors
+
+1. **Enhanced Sensitivity**: Improved performance in low-light conditions.
+2. **Higher Dynamic Range**: Better handling of highlights and shadows in the same image.
+3. **Faster Processing**: Increased speed for burst shooting and video recording.
+
+## Learning Objectives
+
+- Understand the advancements in image sensor technology.
+- Recognize how newer sensors impact photography and videography.
+
+---
 ## Recent Developments in Imaging Sensor Technology
 
 Imaging sensors are at the forefront of technological innovation, and several key trends and advancements are shaping their development:

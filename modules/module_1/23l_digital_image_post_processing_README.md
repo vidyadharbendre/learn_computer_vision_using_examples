@@ -1,6 +1,12 @@
 # Digital Post Processing in Image Sensors
 
 ## Introduction
+Digital post-processing refers to the techniques used to enhance and manipulate images after they have been captured.
+
+## What is Digital Post Processing?
+- **Definition**: The process of editing digital images using software to improve quality, alter appearance, or correct issues.
+
+- **Common Software**: Adobe Photoshop, Lightroom, GIMP, Capture One.
 
 **Digital Post Processing** refers to the various techniques and algorithms applied to digital images after they have been captured by an image sensor but before they are presented to the user or stored. The goal of post-processing is to enhance the visual quality of images, correct imperfections, and adjust various parameters to achieve the desired aesthetic or technical effect.
 
@@ -11,6 +17,17 @@ Once the irradiance values arriving at the sensor have been converted to digital
 - **Gamma Mapping**: Modifying the luminance values through a gamma function to increase the perceived dynamic range of the signal.
 
 Post-processing is crucial in digital photography and imaging applications, where raw sensor data is transformed into visually appealing images. It can involve a wide range of operations, including noise reduction, color correction, sharpening, and dynamic range adjustment.
+
+## Techniques in Digital Post Processing
+
+1. **Color Correction**: Adjusting colors to achieve a natural look.
+2. **Sharpening**: Enhancing details in an image.
+3. **Noise Reduction**: Reducing unwanted noise in images, especially in low-light scenarios.
+
+## Learning Objectives
+
+- Understand the importance of post-processing in digital photography.
+- Learn basic techniques for enhancing image quality.
 
 ---
 
@@ -77,6 +94,10 @@ Post-processing can also address and correct artifacts introduced during image c
 Digital post-processing plays a vital role in enhancing the quality and aesthetics of images captured by sensors. By employing a variety of techniques, photographers and image processors can transform raw sensor data into compelling visual narratives. Understanding the capabilities and limitations of post-processing is essential for maximizing image quality, whether in professional photography, videography, or any other imaging application.
 
 ---
+
+## Next Steps
+
+- Investigate **Newer Image Sensors** and their advancements in technology.
 
 ## Further Reading
 
