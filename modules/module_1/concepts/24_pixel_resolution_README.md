@@ -1,7 +1,9 @@
 # The Evolution of Pixel Size in Digital Cameras: From 1996 to Today
 
 ## Introduction
-In 1996, digital cameras featured pixel resolutions as low as 680 by 480, resulting in a total of fewer than 1 Megapixel. Achieving a 1 Megapixel resolution was a significant breakthrough in digital imaging technology.
+In 1996, digital cameras had pixel resolutions as low as 640 by 480 (307,200 pixels), resulting in fewer than 1 Megapixel. Achieving 1 Megapixel resolution marked a significant breakthrough in digital imaging technology. By around 1998, cameras had reached the 1 Megapixel milestone.
+
+However, the advancements in resolution came with increased power consumption, necessitating more frequent battery changes. Over the years, the resolution of digital cameras has progressed dramatically, now capturing images at 15 to 20 Megapixels.
 
 ## Progression Over the Years
 - **Early Resolutions**: The first digital cameras had very limited resolutions, making them suitable only for basic image capture.
