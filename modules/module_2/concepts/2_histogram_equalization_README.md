@@ -6,18 +6,12 @@ This document explains **Histogram Equalization**, a technique in image processi
 
 ---
 
-## 5W1H: Histogram Equalization
-
-### Who
-
 **Who can use Histogram Equalization?**
 - Image processing engineers
 - Data scientists working with visual data
 - Anyone who needs to improve the visibility of features in an image (e.g., medical imaging, satellite image processing, etc.)
 
 ---
-
-### What
 
 **What is Histogram Equalization?**
 
@@ -34,8 +28,6 @@ The technique is particularly useful for:
 
 ---
 
-### When
-
 **When should you apply Histogram Equalization?**
 
 Histogram Equalization is beneficial when:
@@ -44,8 +36,6 @@ Histogram Equalization is beneficial when:
 - You need to preprocess an image for further tasks such as object detection or segmentation.
 
 ---
-
-### Where
 
 **Where is Histogram Equalization applied?**
 
@@ -57,8 +47,6 @@ Histogram Equalization is used in several domains, including:
 
 ---
 
-### Why
-
 **Why use Histogram Equalization?**
 
 Histogram Equalization helps to:
@@ -67,8 +55,6 @@ Histogram Equalization helps to:
 3. **Better Image Interpretation**: Increases the readability of the image for both humans and machine learning models.
 
 ---
-
-### How
 
 **How does Histogram Equalization work?**
 
