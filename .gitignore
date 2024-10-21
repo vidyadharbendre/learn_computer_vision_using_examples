@@ -1,3 +1,4 @@
 .DS_Store/*.*
 modules/.DS_Store/*.*
 modules/module_1/concepts/.DS_Store/*.*
+notebooks/.ipynb_checkpoints/*.*
