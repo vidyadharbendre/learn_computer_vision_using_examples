@@ -2,7 +2,51 @@
 
 This project explores image denoising techniques, focusing on reducing salt-and-pepper noise while preserving essential image details. We compare Gaussian and Median filters, as well as an adaptive Gaussian approach, to balance noise reduction and edge preservation.
 
+
+
 ## Project Overview
+
+### Spatial Filtering Techniques
+
+Spatial filtering is a fundamental approach used to reduce noise in images. The most common techniques include:
+
+- **Mean Filter**: Averages the pixel values in a neighborhood.
+- **Median Filter**: Replaces each pixel value with the median of its neighbors, preserving edges better than the mean filter.
+- **Gaussian Filter**: Applies a weighted average based on the Gaussian distribution, effectively smoothing the image while minimizing edge distortion.
+
+### Gaussian Filter
+
+The Gaussian filter is particularly effective in noise reduction and is commonly used in image processing.
+
+#### Gaussian Kernel Example
+
+The 3x3 Gaussian kernel can be represented as follows:
+K = [[1, 2, 1], [2, 4, 2], [1, 2, 1]]
+
+
+#### Explanation of the Values
+
+- **Center Value (4)**: 
+  - This value has the highest weight because it corresponds to the pixel being processed, thus has the most significant influence.
+
+- **Adjacent Values (2)**: 
+  - These represent the immediate neighboring pixels, contributing to the smoothing effect.
+
+- **Corner Values (1)**: 
+  - The least influential, as they are farther from the center pixel.
+
+#### Normalization of the Kernel
+
+To maintain the brightness of the image post-convolution, normalize the kernel by dividing each element by the sum of all kernel values:
+
+Sum = 1 + 2 + 1 + 2 + 4 + 2 + 1 + 2 + 1 = 16
+
+Normalized Kernel:
+
+K_normalized = [[1/16, 2/16, 1/16], [2/16, 4/16, 2/16], [1/16, 2/16, 1/16]]
+
+= [[0.0625, 0.125, 0.0625], [0.125, 0.25, 0.125], [0.0625, 0.125, 0.0625]]
+
 
 This project demonstrates the application of:
 - **Gaussian Filter** - A linear filter that applies uniform smoothing across the image, which may blur edges.
