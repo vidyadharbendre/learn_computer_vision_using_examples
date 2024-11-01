@@ -1,4 +1,4 @@
-# Chapter 5.4: Image Denoising Using Adaptive, Local Noise-Reduction Filtering
+# Image Denoising Using Adaptive, Local Noise-Reduction Filtering
 
 ## Introduction
 
