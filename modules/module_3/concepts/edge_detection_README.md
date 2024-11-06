@@ -2,6 +2,7 @@
 
 In image processing, **edge detection** is a critical technique used to identify boundaries within an image. This technique highlights important transitions in intensity, color, or texture, allowing for effective object identification and scene understanding.
 
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [5W1H Analysis](#5w1h-analysis)
@@ -67,6 +68,9 @@ Edge detection is typically performed using algorithms that emphasize areas with
 - **Gradient-Based Detection**: Using the Sobel filter to detect edges in an image by highlighting areas with significant intensity gradients.
 - **Medical Imaging**: Edge detection applied to an MRI scan to highlight tissues and organs.
 - **Autonomous Driving**: Edge detection used in real-time to identify lane markings and nearby objects on the road.
+
+
+
 
 ## Conclusion
 
