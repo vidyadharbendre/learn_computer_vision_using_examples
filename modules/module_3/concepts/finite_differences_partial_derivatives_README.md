@@ -45,15 +45,16 @@ Partial derivatives and finite differences are essential for **edge detection**.
 In the Sobel filter, we approximate the gradient in the x- and y-directions with specific weight matrices:
 
 **For the x-direction:**
-
 [-1 0 +1] [-2 0 +2] [-1 0 +1]
 
+|   -1   |   0    |   +1   |
+| ------ | ------ | ------ |
+|   -2   |   0    |   +2   |
+|   -1   |   0    |   +1   |
 
 
 **For the y-direction:**
-[+1 +2 +1] 
-[ 0  0  0] 
-[-1 -2 -1]
+[+1 +2 +1] [ 0  0  0] [-1 -2 -1]
 
 |   +1   |   +2   |   +1   |
 | ------ | ------ | ------ |
