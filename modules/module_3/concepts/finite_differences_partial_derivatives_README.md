@@ -49,10 +49,17 @@ In the Sobel filter, we approximate the gradient in the x- and y-directions with
 [-1 0 +1] [-2 0 +2] [-1 0 +1]
 
 
+
 **For the y-direction:**
 [+1 +2 +1] 
 [ 0  0  0] 
 [-1 -2 -1]
+
+|   +1   |   +2   |   +1   |
+| ------ | ------ | ------ |
+|   0    |   0    |   0    |
+|  -1    |  -2    |  -1    |
+
 
 These matrices apply weighted finite differences to emphasize edges in the image.
 
