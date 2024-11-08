@@ -58,6 +58,24 @@ To apply these partial derivatives for edge detection in 2D images, we often use
    - Vertical Sobel kernel:
      `G_y = [ -1  -2  -1;  0   0   0;  1   2   1 ]`
 
+
+**For the x-direction:**
+[-1 0 +1] [-2 0 +2] [-1 0 +1]
+
+|   -1   |   0    |   +1   |
+| ------ | ------ | ------ |
+|   -2   |   0    |   +2   |
+|   -1   |   0    |   +1   |
+
+
+**For the y-direction:**
+[-1 -2 -1] [ 0  0  0] [+1 +2 +1]
+
+|   -1   |   -2   |   -1   |
+| ------ | ------ | ------ |
+|   0    |   0    |   0    |
+|  +1    |  +2    |  +1    |
+
 By convolving these kernels with the image, we can compute the partial derivatives `∂I(x, y) / ∂x` and `∂I(x, y) / ∂y`.
 
 ## Summary
