@@ -46,9 +46,7 @@ In the Sobel filter, we approximate the gradient in the x- and y-directions with
 
 **For the x-direction:**
 
-[-1 0 +1] 
-[-2 0 +2] 
-[-1 0 +1]
+[-1 0 +1] [-2 0 +2] [-1 0 +1]
 
 
 **For the y-direction:**
