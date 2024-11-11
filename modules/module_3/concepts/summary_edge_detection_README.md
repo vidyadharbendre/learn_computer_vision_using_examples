@@ -75,3 +75,4 @@ This guide explores a sequence of edge-detection techniques in image processing,
 ---
 
 This structured approach helps to build a comprehensive understanding of edge detection techniques by addressing limitations and progressively introducing improvements at each step.
+
